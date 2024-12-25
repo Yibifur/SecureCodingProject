@@ -1,0 +1,11 @@
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\bin\Debug\net8.0\OneDose.FirstProject.EntityLayer.deps.json
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\bin\Debug\net8.0\OneDose.FirstProject.EntityLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\bin\Debug\net8.0\OneDose.FirstProject.EntityLayer.pdb
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\obj\Debug\net8.0\OneDose.FirstProject.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\obj\Debug\net8.0\OneDose.FirstProject.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\obj\Debug\net8.0\OneDose.FirstProject.EntityLayer.AssemblyInfo.cs
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\obj\Debug\net8.0\OneDose.FirstProject.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\obj\Debug\net8.0\OneDose.FirstProject.EntityLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\obj\Debug\net8.0\refint\OneDose.FirstProject.EntityLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\obj\Debug\net8.0\OneDose.FirstProject.EntityLayer.pdb
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.EntityLayer\obj\Debug\net8.0\ref\OneDose.FirstProject.EntityLayer.dll

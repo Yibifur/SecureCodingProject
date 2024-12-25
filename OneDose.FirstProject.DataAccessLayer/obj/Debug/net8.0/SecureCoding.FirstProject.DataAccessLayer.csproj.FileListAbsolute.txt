@@ -1,0 +1,5 @@
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\SecureCoding.FirstProject.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\SecureCoding.FirstProject.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\SecureCoding.FirstProject.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\SecureCoding.FirstProject.DataAccessLayer.AssemblyInfo.cs
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\SecureCoding.FirstProject.DataAccessLayer.csproj.CoreCompileInputs.cache

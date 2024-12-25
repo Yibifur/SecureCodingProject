@@ -1,0 +1,17 @@
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\bin\Debug\net8.0\OneDose.FirstProject.BusinessLayer.deps.json
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\bin\Debug\net8.0\OneDose.FirstProject.BusinessLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\bin\Debug\net8.0\OneDose.FirstProject.BusinessLayer.pdb
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\bin\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\bin\Debug\net8.0\OneDose.FirstProject.EntityLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\bin\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.pdb
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\bin\Debug\net8.0\OneDose.FirstProject.EntityLayer.pdb
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\obj\Debug\net8.0\OneDose.FirstProject.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\obj\Debug\net8.0\OneDose.FirstProject.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\obj\Debug\net8.0\OneDose.FirstProject.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\obj\Debug\net8.0\OneDose.FirstProject.BusinessLayer.AssemblyInfo.cs
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\obj\Debug\net8.0\OneDose.FirstProject.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\obj\Debug\net8.0\OneDose..05008683.Up2Date
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\obj\Debug\net8.0\OneDose.FirstProject.BusinessLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\obj\Debug\net8.0\refint\OneDose.FirstProject.BusinessLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\obj\Debug\net8.0\OneDose.FirstProject.BusinessLayer.pdb
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.BusinessLayer\obj\Debug\net8.0\ref\OneDose.FirstProject.BusinessLayer.dll

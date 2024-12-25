@@ -1,0 +1,6 @@
+@OneDose.FirstProject.WebAPI_HostAddress = http://localhost:5249
+
+GET {{OneDose.FirstProject.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,15 @@
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\bin\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.deps.json
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\bin\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\bin\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.pdb
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\bin\Debug\net8.0\OneDose.FirstProject.EntityLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\bin\Debug\net8.0\OneDose.FirstProject.EntityLayer.pdb
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.AssemblyInfo.cs
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\OneDose..0AF02A99.Up2Date
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\refint\OneDose.FirstProject.DataAccessLayer.dll
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\OneDose.FirstProject.DataAccessLayer.pdb
+C:\Users\yibif\source\repos\OneDose.FirstProject\OneDose.FirstProject.DataAccessLayer\obj\Debug\net8.0\ref\OneDose.FirstProject.DataAccessLayer.dll
