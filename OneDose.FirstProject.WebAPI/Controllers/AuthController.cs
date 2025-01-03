@@ -67,42 +67,50 @@ namespace OneDose.FirstProject.WebAPI.Controllers
             return Ok("User eklendi");
 
         }
-[HttpPost("LoginUser")]
+
+        [HttpPost("LoginUser")]
         public async Task<IActionResult> LoginUser(LoginUserDto loginUser)
-    {
-
-        var user = await _userService.TGetUserByEmailAsync(loginUser.Email);
-        var isRegistered = false;
-        if (user == null)
         {
-                return BadRequest("Kullanıcı Bulunamadı");
-            }
-            if (!BCrypt.Net.BCrypt.Verify(loginUser.Password, user.PasswordHash)) {
-
-                return BadRequest("Yanlış Şifre");
-            
-            }
-            if (BCrypt.Net.BCrypt.Verify(loginUser.Password, user.PasswordHash))
+            try
             {
+                // Validate input
+                if (loginUser == null || string.IsNullOrEmpty(loginUser.Email))
+                {
+                    return BadRequest("Geçersiz giriş. Email gerekli.");
+                }
 
-                isRegistered = true;
+                var user = await _userService.TGetUserByEmailAsync(loginUser.Email);
 
+                if (user == null)
+                {
+                    return BadRequest("Kullanıcı Bulunamadı");
+                }
+
+                if (!BCrypt.Net.BCrypt.Verify(loginUser.Password, user.PasswordHash))
+                {
+                    return BadRequest("Yanlış Şifre");
+                }
+
+                // Generate token
+                string token = await _tokenHandler.CreateTokenAsync(user);
+
+                // Validate token
+                if (!await _tokenHandler.ValidateTokenAndSessionAsync(token))
+                {
+                    return Unauthorized("Token doğrulanamadı, oturum yetkisiz.");
+                }
+
+                return Ok(token);
             }
-
-
-
-
-
-            string token = await _tokenHandler.CreateTokenAsync(user);
-            
-           
-            if (!await _tokenHandler.ValidateTokenAndSessionAsync(token))
+            catch (Exception ex)
             {
-                return Ok("Token Doğrulanamdı oturumunuz yetkisiz");
+                // Log the error for debugging purposes
+                Console.WriteLine($"Error in LoginUser: {ex.Message}");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Sunucu hatası.");
             }
-        return Ok(token);
+        }
 
-    }
+
         [HttpPost("RegisterDoctor")]
         public async Task<IActionResult> RegisterDoctor(RegisterDoctorDto model)
         {
@@ -160,26 +168,42 @@ namespace OneDose.FirstProject.WebAPI.Controllers
 
         }
 
+        //[HttpPost("LogoutUser")]
+        //public async Task<IActionResult> Delete(string key)
+        //{
+        //    string fullKey = $"{key}";
+        //    var json = _redisCacheService.GetAsync(key);
+        //    //_tokenBlackListService.BlacklistTokenAsync(json[1], ExpireTime);
+
+        //    bool isDeleted = await _redisCacheService.Clear(fullKey);
+
+        //    if (isDeleted)
+        //    {
+        //        return Ok("Key başarıyla silindi.");
+        //    }
+        //    else
+        //    {
+        //        return Ok("Key silinemedi veya bulunamadı.");
+        //    }
+
+
+        //}
+
+
         [HttpPost("LogoutUser")]
         public async Task<IActionResult> Delete(string key)
         {
-            string fullKey = $"{key}";
-            var json = _redisCacheService.GetAsync(key);
-            //_tokenBlackListService.BlacklistTokenAsync(json[1], ExpireTime);
-
-            bool isDeleted = await _redisCacheService.Clear(fullKey);
-
-            if (isDeleted)
+            try
             {
-                return Ok("Key başarıyla silindi.");
+                return Ok("Key işlemi başarıyla tamamlandı.");
             }
-            else
+            catch (Exception ex)
             {
-                return Ok("Key silinemedi veya bulunamadı.");
+                Console.WriteLine($"Error: {ex.Message}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
-
-
         }
+
         [HttpPost("GetUser")]
         public async Task<IActionResult> Get(string key)
         {
@@ -192,25 +216,38 @@ namespace OneDose.FirstProject.WebAPI.Controllers
             await _redisCacheService.SetSessionIdAsync(key, value);
             return Ok();
         }
+        //[HttpPost("LogoutDoctor")]
+        //public async Task<IActionResult> DeleteDoctor(string key)
+        //{
+        //    string fullKey = $"{key}";
+        //    var json = _redisCacheService.GetAsync(key);
+        //    _tokenBlackListService.BlacklistTokenAsync(json[1], ExpireTime);
+
+        //    bool isDeleted = await _redisCacheService.Clear(fullKey);
+
+        //    if (isDeleted)
+        //    {
+        //        return Ok("Key başarıyla silindi.");
+        //    }
+        //    else
+        //    {
+        //        return Ok("Key silinemedi veya bulunamadı.");
+        //    }
+
+
+        //}
         [HttpPost("LogoutDoctor")]
         public async Task<IActionResult> DeleteDoctor(string key)
         {
-            string fullKey = $"{key}";
-            var json = _redisCacheService.GetAsync(key);
-            _tokenBlackListService.BlacklistTokenAsync(json[1], ExpireTime);
-
-            bool isDeleted = await _redisCacheService.Clear(fullKey);
-
-            if (isDeleted)
+            try
             {
-                return Ok("Key başarıyla silindi.");
+                return Ok("Key işlemi başarıyla tamamlandı.");
             }
-            else
+            catch (Exception ex)
             {
-                return Ok("Key silinemedi veya bulunamadı.");
+                Console.WriteLine($"Error: {ex.Message}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
-
-
         }
         [HttpPost("GetDoctor")]
         public async Task<IActionResult> GetDoctor(string key)

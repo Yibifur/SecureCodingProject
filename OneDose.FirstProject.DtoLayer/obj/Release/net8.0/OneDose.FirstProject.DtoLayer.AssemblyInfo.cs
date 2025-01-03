@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OneDose.FirstProject.DtoLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc24f316c565234c220ba0796f09bdb9599d54bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("OneDose.FirstProject.DtoLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OneDose.FirstProject.DtoLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

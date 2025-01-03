@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\OneDose.FirstProject.WebAPI"
+    "\\OneDose.FirstProject.WebAPI",
+    "\\OneDose.FirstProject.WebAPI\\Controllers"
   ],
-  "SelectedNode": "\\Dockerfile",
+  "SelectedNode": "\\OneDose.FirstProject.WebAPI\\Controllers\\AuthController.cs",
   "PreviewInSolutionExplorer": false
 }

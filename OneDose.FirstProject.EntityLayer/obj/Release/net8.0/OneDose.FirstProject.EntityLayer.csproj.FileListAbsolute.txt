@@ -1,0 +1,12 @@
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\bin\Release\net8.0\OneDose.FirstProject.EntityLayer.deps.json
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\bin\Release\net8.0\OneDose.FirstProject.EntityLayer.dll
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\bin\Release\net8.0\OneDose.FirstProject.EntityLayer.pdb
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\obj\Release\net8.0\OneDose.FirstProject.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\obj\Release\net8.0\OneDose.FirstProject.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\obj\Release\net8.0\OneDose.FirstProject.EntityLayer.AssemblyInfo.cs
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\obj\Release\net8.0\OneDose.FirstProject.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\obj\Release\net8.0\OneDose.FirstProject.EntityLayer.sourcelink.json
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\obj\Release\net8.0\OneDose.FirstProject.EntityLayer.dll
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\obj\Release\net8.0\refint\OneDose.FirstProject.EntityLayer.dll
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\obj\Release\net8.0\OneDose.FirstProject.EntityLayer.pdb
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\OneDose.FirstProject.EntityLayer\obj\Release\net8.0\ref\OneDose.FirstProject.EntityLayer.dll

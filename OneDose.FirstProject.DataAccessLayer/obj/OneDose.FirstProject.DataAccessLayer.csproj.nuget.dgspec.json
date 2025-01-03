@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.DataAccessLayer\\OneDose.FirstProject.DataAccessLayer.csproj": {}
+    "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.DataAccessLayer\\OneDose.FirstProject.DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.DataAccessLayer\\OneDose.FirstProject.DataAccessLayer.csproj": {
+    "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.DataAccessLayer\\OneDose.FirstProject.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.DataAccessLayer\\OneDose.FirstProject.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.DataAccessLayer\\OneDose.FirstProject.DataAccessLayer.csproj",
         "projectName": "OneDose.FirstProject.DataAccessLayer",
-        "projectPath": "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.DataAccessLayer\\OneDose.FirstProject.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\yibif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.DataAccessLayer\\OneDose.FirstProject.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\gulsa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\yibif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gulsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.EntityLayer\\OneDose.FirstProject.EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.EntityLayer\\OneDose.FirstProject.EntityLayer.csproj"
+              "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.EntityLayer\\OneDose.FirstProject.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.EntityLayer\\OneDose.FirstProject.EntityLayer.csproj"
               }
             }
           }
@@ -44,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -83,21 +87,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.EntityLayer\\OneDose.FirstProject.EntityLayer.csproj": {
+    "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.EntityLayer\\OneDose.FirstProject.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.EntityLayer\\OneDose.FirstProject.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.EntityLayer\\OneDose.FirstProject.EntityLayer.csproj",
         "projectName": "OneDose.FirstProject.EntityLayer",
-        "projectPath": "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.EntityLayer\\OneDose.FirstProject.EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\yibif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yibif\\source\\repos\\OneDose.FirstProject\\OneDose.FirstProject.EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.EntityLayer\\OneDose.FirstProject.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\gulsa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gulsa\\Documents\\GitHub\\SecureCodingProject\\OneDose.FirstProject.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\yibif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gulsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,7 +113,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,7 +130,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -144,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

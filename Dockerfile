@@ -1,15 +1,12 @@
-# Build Stage
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /source
-COPY . .
-RUN dotnet restore "./OneDose.FirstProject.WebAPI/OneDose.FirstProject.WebAPI.csproj" --disable-parallel
-RUN dotnet publish "./OneDose.FirstProject.WebAPI/OneDose.FirstProject.WebAPI.csproj" -c release -o /app --no-restore
-
-# Serve Stage
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# Use the official .NET 8 runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=build /app ./
 
-EXPOSE 5000
+# Copy the compiled .dll and dependencies
+COPY ./out/ .
 
+# Set the entry point for the application
 ENTRYPOINT ["dotnet", "OneDose.FirstProject.WebAPI.dll"]
+
+# Expose the WebAPI port
+EXPOSE 5249

@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  webapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5249:5249"
+    depends_on:
+      - redis
+    environment:
+      - REDIS_CONNECTION=redis:6379 # Use Redis service name for the connection
+    volumes:
+      - ./keys:/root/.aspnet/DataProtection-Keys
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
