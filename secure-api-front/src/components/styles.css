@@ -1,0 +1,183 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 100vh;
+}
+
+.login-container {
+    width: 26em;
+    height: fit-content;
+
+    border-radius: 20px;
+
+    background-color: #21618C;
+}
+
+.login-header {
+
+    text-align: center;
+    padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #fff;
+}
+
+.login-header h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.usr-div {
+    width: 6rem;
+    height: 7rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid #eee;
+}
+
+.form-container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    color: #eee;
+}
+
+.form-container .form-control:focus {
+    border-color: #666;
+    /* Kenar rengi */
+    outline: 0;
+    /* Dış çerçeveyi kaldır */
+    box-shadow: 0 0 0 0.1rem #999;
+    /* Box shadow rengi */
+}
+
+.form-container .input {
+    height: 5rem !important;
+}
+
+.login-btn {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #eee;
+    color: #333;
+    width: 6rem;
+    height: 2.5rem;
+    border: 1px solid #1B4F72;
+    margin-bottom: 30px;
+}
+
+.login-btn:focus,
+.login-btn:active {
+    background-color: #194969 !important;
+    border: 1px solid #1B4F72;
+}
+
+.login-btn:hover {
+    background-color: #1B4F72;
+    border: 1px solid #1B4F72;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.link-component {
+    color: #fff;
+}
+
+.link-component:hover {
+    color: #72b2dd;
+}
+
+/* Dashboard.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dashboard-header {
+    background-color: #21618C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.dashboard-header h1 {
+    margin: 0;
+}
+
+.logout-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: rgb(163, 16, 16);
+}
+
+
+.dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.dashboard-card {
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card h2 {
+    color: #21618C;
+    margin-bottom: 10px;
+}
+
+.dashboard-footer {
+    background-color: #21618C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

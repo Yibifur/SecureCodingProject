@@ -1,0 +1,3 @@
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\out\OneDose.FirstProject.EntityLayer.dll
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\out\OneDose.FirstProject.EntityLayer.deps.json
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\out\OneDose.FirstProject.EntityLayer.pdb

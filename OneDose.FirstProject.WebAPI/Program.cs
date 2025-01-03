@@ -22,6 +22,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
 builder.Services.AddCustomServices();
 builder.Services.Configure<RedisSettings>(builder.Configuration.GetSection("RedisSettings"));
@@ -46,7 +47,8 @@ builder.Services.AddStackExchangeRedisCache(options =>
 {
     options.Configuration = builder.Configuration.GetConnectionString("Redis");
     options.InstanceName = "Person";
-   
+
+
 });
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
 {
@@ -73,6 +75,36 @@ builder.Services.AddDistributedMemoryCache();
     });
 
 });*/
+
+
+
+
+// CORS settings
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigins", builder =>
+    {
+        builder.SetIsOriginAllowed(origin =>
+        {
+            // Allow localhost with any port for development
+            if (origin.StartsWith("http://localhost:"))
+                return true;
+
+            // Allow requests from the main domain
+            if (origin == "https://guls4h.com")
+                return true;
+
+            if (origin == "http://guls4h.com")
+                return true;
+
+            return false;
+        })
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+    });
+});
+
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -92,6 +124,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 //app.UseMiddleware<ApiResponseMiddleware>();
+
+// Use CORS middleware
+app.UseCors("AllowSpecificOrigins");
+
+
 app.UseMiddleware<BlacklistTokenMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();

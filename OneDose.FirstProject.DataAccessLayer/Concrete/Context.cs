@@ -13,7 +13,8 @@ namespace OneDose.FirstProject.DataAccessLayer.Concrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Trusted_Connection = True;TrustServerCertificate=True
-            optionsBuilder.UseSqlServer(@"Server = YIGITMONSTER\SQLEXPRESS;initial catalog=OneDoseDb;integrated security=true;TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Initial Catalog=OneDoseDb;Integrated Security=True;TrustServerCertificate=True");
+
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Doctor> Doctors { get; set; }

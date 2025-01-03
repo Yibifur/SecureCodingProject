@@ -1,0 +1,3 @@
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\out\OneDose.FirstProject.DtoLayer.dll
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\out\OneDose.FirstProject.DtoLayer.deps.json
+C:\Users\Halil\source\repos\Yibifur\SecureCodingProject\out\OneDose.FirstProject.DtoLayer.pdb
